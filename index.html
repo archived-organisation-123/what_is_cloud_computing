@@ -1,0 +1,343 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>What is Cloud Computing and Why Should I Care?</title>
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/black.css">
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+
+        <style>
+            .heading-background {
+                background: rgba(0, 0, 0, 0.5);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h2>What is Cloud Computing and Why Should I Care?</h2>
+                    <div>
+                        <img class="plain" src="images/codeupleeds.png" alt="code up logo"/>
+                    </div>
+                </section>
+
+                <section id="objectives" data-background="#dddddd">
+                    <h2>An Overview for the Uninitiated:</h2>
+                    <ul>
+                        <li>What is the cloud?</li>
+                        <li>Why do we need clouds?</li>
+                        <li>Why is everyone using clouds?</li>
+                        <li>Why do I use clouds?</li>
+                        <li>What can you do with a cloud?</li>
+                    </ul>
+                </section>
+
+                <section id="first">
+                    <h2>But first...</h2>
+                    <div class="fragment">
+                        <p>who's heard of the cloud?</p>
+                    </div>
+                    <div class="fragment">
+                        <p>who's used one of the clouds?</p>
+                    </div>
+                </section>
+
+                <section
+                    id="what_is_dark_cloud"
+                    data-background-image="https://media.giphy.com/media/Cn46Wi1Fvh11S/giphy.gif"
+                    data-background-repeat="no-repeat"
+                    data-background-size="contain"
+                >
+                    <h2>So what is the cloud?</h2>
+                </section>
+
+                <section id="made_of_cheese">
+                    <h2>what is a cloud made of?</h2>
+                </section>
+
+                <section id="rasp_pi">
+                    <h2>What is a computer?</h2>
+                    <div class="fragment">
+                        <p>Big Raspberry Pi</p>
+                    </div>
+                </section>
+
+                <section
+                        id="server"
+                        data-background-image="https://www.datacenterknowledge.com/sites/datacenterknowledge.com/files/wp-content/uploads/2016/10/microsoft-cloud-server-v3-2016.jpg"
+                        data-background-repeat="no-repeat"
+                        data-background-size="contain"
+                >
+                    <div class="fragment">
+                        <h2 class="heading-background">A server</h2>
+                    </div>
+                </section>
+
+                <section id="rack">
+                    <h2>What are lots of computers?</h2>
+                    <div class="fragment">
+                        <p>A "rack"</p>
+                    </div>
+                </section>
+
+                <section
+                    id="row"
+                    data-background-image="https://i.imgur.com/h3EBBEp.jpg"
+                    data-background-repeat="no-repeat"
+                    data-background-size="contain"
+                >
+                    <h2 class="heading-background">What are loads of computers?</h2>
+                    <div class="fragment">
+                        <p class="heading-background">A "row"</p>
+                    </div>
+                </section>
+
+                <section
+                    id="datacenter"
+                    data-background-image="https://i.imgur.com/gF3S3wI.jpg"
+                    data-background-repeat="no-repeat"
+                    data-background-size="contain"
+                >
+                    <h2 class="heading-background">What are a crazy amount of computers?</h2>
+                    <div class="fragment heading-background">
+                        <p>A datacenter</p>
+                    </div>
+                </section>
+
+                <section
+                    id="datacenters"
+                    data-background-image="images/aws_global_infra.png"
+                    data-background-repeat="no-repeat"
+                    data-background-size="contain"
+                >
+                    <div class="fragment">
+                        <h2 class="heading-background">What are all the computers?</h2>
+                    </div>
+                    <div class="fragment heading-background">
+                        <p>Many datacenters</p>
+                    </div>
+                </section>
+
+                <section
+                    id="providers"
+                    data-background-image="https://cloudcare24x7.com/wp-content/uploads/2018/11/public-cloud-providers.png"
+                    data-background-repeat="no-repeat"
+                    data-background-size="contain"
+                >
+                    <div class="fragment">
+                        <h2 class="heading-background">Who owns all the computers?</h2>
+                    </div>
+                    <div class="fragment">
+                        <p class="heading-background">AWS, Azure, Google Cloud, Oracle etc etc etc</p>
+                    </div>
+                </section>
+
+                <section
+                    id="why_do_we_need_dark_cloud"
+                    data-background-image="https://media.giphy.com/media/Cn46Wi1Fvh11S/giphy.gif"
+                    data-background-repeat="no-repeat"
+                    data-background-size="contain"
+                >
+                    <h2>Why do we need clouds?</h2>
+                </section>
+
+                <section id="why">
+                    <h2>Why?</h2>
+                    <ul>
+                        <li>Move fast</li>
+                        <li>Elastic</li>
+                        <li>Not use computers</li>
+                    </ul>
+                </section>
+
+                <section id="move_fast">
+                    <h2>Move fast:</h2>
+                    <ul>
+                        <li>Break things</li>
+                        <li>Test things</li>
+                        <li>Try things</li>
+                    </ul>
+                </section>
+
+                <section id="test_things">
+                    <h2>Elastic:</h2>
+                    <ul>
+                        <li>Scale with money</li>
+                        <li>Scale with growth</li>
+                        <li>Scale unexpectedly</li>
+                    </ul>
+                </section>
+
+                <section id="not_use_computers">
+                    <h2>Not (really) use computers:</h2>
+                    <ul>
+                        <li>Managed services</li>
+                        <li>Containers</li>
+                        <li>Function as a Service</li>
+                    </ul>
+                </section>
+
+                <section
+                    id="why_are_people_using_dark_cloud"
+                    data-background-image="https://media.giphy.com/media/Cn46Wi1Fvh11S/giphy.gif"
+                    data-background-repeat="no-repeat"
+                    data-background-size="contain"
+                >
+                    <h2>Why is everyone using clouds?</h2>
+                </section>
+
+                <section id="why_use">
+                    <h2>why:</h2>
+                    <ul>
+                        <li>Pay for usage</li>
+                        <li>Support</li>
+                        <li>Resiliency</li>
+                    </ul>
+                </section>
+
+                <section id="pay_for_usage">
+                    <h2>Pay for usage:</h2>
+                    <ul>
+                        <li>Low upfront commitment</li>
+                        <li>Low loss if it doesn't work</li>
+                        <li>Budget can scale with growth</li>
+                    </ul>
+                </section>
+
+                <section id="support">
+                    <h2>Support:</h2>
+                    <ul>
+                        <li>Someone to call</li>
+                        <li>Effectively a bigger team</li>
+                        <li>Common patterns and practises</li>
+                    </ul>
+                </section>
+
+                <section id="resiliency">
+                    <h2>Resiliency:</h2>
+                    <ul>
+                        <li>Self healing</li>
+                        <li>Globally distributed</li>
+                        <li>Quick response times</li>
+                    </ul>
+                </section>
+
+                <section
+                    id="why_do_i_dark_cloud"
+                    data-background-image="https://media.giphy.com/media/Cn46Wi1Fvh11S/giphy.gif"
+                    data-background-repeat="no-repeat"
+                    data-background-size="contain"
+                >
+                    <h2>Why do I use clouds?</h2>
+                </section>
+
+                <section id="why_i">
+                    <h2>why I:</h2>
+                    <ul>
+                        <li>Focused</li>
+                        <li>Fast</li>
+                        <li>Fun</li>
+                    </ul>
+                </section>
+
+                <section id="focused">
+                    <h2>Focused:</h2>
+                    <ul>
+                        <li>Can concentrate on value</li>
+                        <li>Reduced distractions</li>
+                    </ul>
+                </section>
+
+                <section id="fast">
+                    <h2>Fast:</h2>
+                    <ul>
+                        <li>Quick feedback loops</li>
+                        <li>Fast resources</li>
+                    </ul>
+                </section>
+
+                <section id="fun">
+                    <h2>Fun:</h2>
+                    <ul>
+                        <li>Huge scale</li>
+                        <li>Innovative services</li>
+                    </ul>
+                </section>
+
+                <section
+                    id="what_can_you_cloud"
+                    data-background-image="https://media.giphy.com/media/Cn46Wi1Fvh11S/giphy.gif"
+                    data-background-repeat="no-repeat"
+                    data-background-size="contain"
+                >
+                    <h2>What can you do with a cloud?</h2>
+                </section>
+
+                <section id="what_can_you">
+                    <h2>what can you do:</h2>
+                    <ul>
+                        <li><a href="https://aws.amazon.com/free/">Amazon Web Services Free tier</a></li>
+                        <li><a href="https://cloud.google.com/free/">Google Cloud Platform Free Tier</a></li>
+                        <li><a href="https://azure.microsoft.com/en-gb/free/">Microsoft Azure Free Tier</a></li>
+                    </ul>
+                </section>
+
+                <section id="further-reading">
+                    <h2>Helpful resources</h2>
+                    <ul>
+                        <li><a href="https://acloud.guru/">A Cloud Guru Training</a></li>
+                        <li><a href="https://imgur.com/gallery/7NPNf">More datacenter pictures</a></li>
+                        <li>
+                            <a href="https://join.slack.com/t/codeupleeds/shared_invite/enQtMzgyODEzODYwODIxLWY1MTZkOTc0MGQ0ZDlhNTkzYmI2YmIxMGJiYzdjZjI5Y2Q1ZTgyMTQyZmZmOTBiZDQzNWQ4NmJlNjc3ZjlhN2E">
+                                Join us on Slack!
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <div>
+                        <div>
+                            <h2>Feedback?</h2>
+                            <img style="margin:auto" src="images/qr.png">
+                        </div>
+                        <a href="https://bit.ly/2V7axKP">https://bit.ly/2V7axKP</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+                dependencies: [
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+                ]
+            });
+        </script>
+    </body>
+</html>
