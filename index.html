@@ -1,24 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
 
-        <title>What is Cloud Computing and Why Should I Care?</title>
+        <title>Intro to Cloud Computing</title>
 
-        <link rel="stylesheet" href="css/reveal.css">
-        <link rel="stylesheet" href="css/theme/black.css">
+        <link rel="stylesheet" href="css/reveal.css" />
+        <link rel="stylesheet" href="css/theme/black.css" />
 
         <!-- Theme used for syntax highlighting of code -->
-        <link rel="stylesheet" href="lib/css/zenburn.css">
+        <link rel="stylesheet" href="lib/css/zenburn.css" />
 
         <!-- Printing and PDF exports -->
         <script>
-            var link = document.createElement( 'link' );
-            link.rel = 'stylesheet';
-            link.type = 'text/css';
-            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-            document.getElementsByTagName( 'head' )[0].appendChild( link );
+            var link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.type = "text/css";
+            link.href = window.location.search.match(/print-pdf/gi)
+                ? "css/print/pdf.css"
+                : "css/print/paper.css";
+            document.getElementsByTagName("head")[0].appendChild(link);
         </script>
 
         <style>
@@ -31,14 +36,11 @@
         <div class="reveal">
             <div class="slides">
                 <section>
-                    <h2>What is Cloud Computing and Why Should I Care?</h2>
-                    <div>
-                        <img class="plain" src="images/codeupleeds.png" alt="code up logo"/>
-                    </div>
+                    <h2>What is Cloud Computing?</h2>
                 </section>
 
                 <section id="objectives" data-background="#dddddd">
-                    <h2>An Overview for the Uninitiated:</h2>
+                    <h2>Overview</h2>
                     <ul>
                         <li>What is the cloud?</li>
                         <li>Why do we need clouds?</li>
@@ -79,10 +81,10 @@
                 </section>
 
                 <section
-                        id="server"
-                        data-background-image="https://www.datacenterknowledge.com/sites/datacenterknowledge.com/files/wp-content/uploads/2016/10/microsoft-cloud-server-v3-2016.jpg"
-                        data-background-repeat="no-repeat"
-                        data-background-size="contain"
+                    id="server"
+                    data-background-image="https://www.datacenterknowledge.com/sites/datacenterknowledge.com/files/wp-content/uploads/2016/10/microsoft-cloud-server-v3-2016.jpg"
+                    data-background-repeat="no-repeat"
+                    data-background-size="contain"
                 >
                     <div class="fragment">
                         <h2 class="heading-background">A server</h2>
@@ -102,7 +104,9 @@
                     data-background-repeat="no-repeat"
                     data-background-size="contain"
                 >
-                    <h2 class="heading-background">What are loads of computers?</h2>
+                    <h2 class="heading-background">
+                        What are loads of computers?
+                    </h2>
                     <div class="fragment">
                         <p class="heading-background">A "row"</p>
                     </div>
@@ -114,7 +118,9 @@
                     data-background-repeat="no-repeat"
                     data-background-size="contain"
                 >
-                    <h2 class="heading-background">What are a crazy amount of computers?</h2>
+                    <h2 class="heading-background">
+                        What are a crazy amount of computers?
+                    </h2>
                     <div class="fragment heading-background">
                         <p>A datacenter</p>
                     </div>
@@ -126,11 +132,25 @@
                     data-background-repeat="no-repeat"
                     data-background-size="contain"
                 >
-                    <div class="fragment">
-                        <h2 class="heading-background">What are all the computers?</h2>
-                    </div>
+                    <h2 class="heading-background">
+                        What are all the computers?
+                    </h2>
                     <div class="fragment heading-background">
                         <p>Many datacenters</p>
+                    </div>
+                </section>
+
+                <section
+                    id="datacenters"
+                    data-background-image="images/aws_global_infra_20200924.png"
+                    data-background-repeat="no-repeat"
+                    data-background-size="contain"
+                >
+                    <h2 class="heading-background">
+                        And it keeps growing
+                    </h2>
+                    <div class="fragment heading-background">
+                        <p>3 new regions, 11 new availability zones</p>
                     </div>
                 </section>
 
@@ -141,10 +161,14 @@
                     data-background-size="contain"
                 >
                     <div class="fragment">
-                        <h2 class="heading-background">Who owns all the computers?</h2>
+                        <h2 class="heading-background">
+                            Who owns all the computers?
+                        </h2>
                     </div>
                     <div class="fragment">
-                        <p class="heading-background">AWS, Azure, Google Cloud, Oracle etc etc etc</p>
+                        <p class="heading-background">
+                            AWS, Azure, Google Cloud, Oracle etc etc etc
+                        </p>
                     </div>
                 </section>
 
@@ -281,10 +305,10 @@
                 </section>
 
                 <section
-                        id="what_have_i_dark_cloud"
-                        data-background-image="https://media.giphy.com/media/Cn46Wi1Fvh11S/giphy.gif"
-                        data-background-repeat="no-repeat"
-                        data-background-size="contain"
+                    id="what_have_i_dark_cloud"
+                    data-background-image="https://media.giphy.com/media/Cn46Wi1Fvh11S/giphy.gif"
+                    data-background-repeat="no-repeat"
+                    data-background-size="contain"
                 >
                     <h2>What have I done with clouds?</h2>
                 </section>
@@ -301,33 +325,22 @@
                 <section id="what_can_you">
                     <h2>what can you do:</h2>
                     <ul>
-                        <li><a href="https://aws.amazon.com/free/">Amazon Web Services Free tier</a></li>
-                        <li><a href="https://cloud.google.com/free/">Google Cloud Platform Free Tier</a></li>
-                        <li><a href="https://azure.microsoft.com/en-gb/free/">Microsoft Azure Free Tier</a></li>
-                    </ul>
-                </section>
-
-                <section id="further-reading">
-                    <h2>Helpful resources</h2>
-                    <ul>
-                        <li><a href="https://acloud.guru/">A Cloud Guru Training</a></li>
-                        <li><a href="https://imgur.com/gallery/7NPNf">More datacenter pictures</a></li>
                         <li>
-                            <a href="https://join.slack.com/t/codeupleeds/shared_invite/enQtMzgyODEzODYwODIxLWY1MTZkOTc0MGQ0ZDlhNTkzYmI2YmIxMGJiYzdjZjI5Y2Q1ZTgyMTQyZmZmOTBiZDQzNWQ4NmJlNjc3ZjlhN2E">
-                                Join us on Slack!
-                            </a>
+                            <a href="https://aws.amazon.com/free/"
+                                >Amazon Web Services Free tier</a
+                            >
+                        </li>
+                        <li>
+                            <a href="https://cloud.google.com/free/"
+                                >Google Cloud Platform Free Tier</a
+                            >
+                        </li>
+                        <li>
+                            <a href="https://azure.microsoft.com/en-gb/free/"
+                                >Microsoft Azure Free Tier</a
+                            >
                         </li>
                     </ul>
-                </section>
-
-                <section>
-                    <div>
-                        <div>
-                            <h2>Feedback?</h2>
-                            <img style="margin:auto" src="images/qr.png" alt="feedback">
-                        </div>
-                        <a href="https://bit.ly/2V7axKP">https://bit.ly/2V7axKP</a>
-                    </div>
                 </section>
             </div>
         </div>
@@ -341,11 +354,17 @@
             // - https://github.com/hakimel/reveal.js#dependencies
             Reveal.initialize({
                 dependencies: [
-                    { src: 'plugin/markdown/marked.js' },
-                    { src: 'plugin/markdown/markdown.js' },
-                    { src: 'plugin/notes/notes.js', async: true },
-                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-                ]
+                    { src: "plugin/markdown/marked.js" },
+                    { src: "plugin/markdown/markdown.js" },
+                    { src: "plugin/notes/notes.js", async: true },
+                    {
+                        src: "plugin/highlight/highlight.js",
+                        async: true,
+                        callback: function () {
+                            hljs.initHighlightingOnLoad();
+                        },
+                    },
+                ],
             });
         </script>
     </body>
